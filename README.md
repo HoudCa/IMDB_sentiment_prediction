@@ -28,6 +28,6 @@ L'arrêt précoce a été rajouté pour arrêter la formation une fois que les p
 Et pour sauvegarder les poids du modèle ayant la meilleure performance, j'ai utilisé la classe de rappel ModelCheckpoint.
 
 # Évaluation des performances
-Nos simulations ont montré que RoBERTa atteint des meilleurs performances que BERT. En effet, la précision (accuracy) de 96.72% et dont l'aire
-sous la courbe ROC (AUC) est de 99.28% contre une précision de 94.78% et une AUC de  98.87% pour le modèle BERT.
+Nos simulations ont montré que RoBERTa atteint des meilleurs performances que BERT. En effet, la précision (accuracy) de **96.72%** et dont l'aire
+sous la courbe ROC (AUC) est de **99.28%** contre une précision de 94.78% et une AUC de  98.87% pour le modèle BERT.
 
