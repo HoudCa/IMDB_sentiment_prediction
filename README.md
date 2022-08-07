@@ -9,3 +9,9 @@ L'ensemble de formation se compose de 25 000 critiques différentes de l'ensembl
 - testData - L'ensemble de test. Le fichier délimité par des tabulations comporte une ligne d'en-tête suivie de 25 000 lignes contenant un identifiant et un texte pour chaque avis. Votre tâche consiste à prédire le sentiment pour chacun. 
 - unlabeledTrainData - Un ensemble d'entraînement supplémentaire sans étiquettes. Le fichier délimité par des tabulations comporte une ligne précédente suivie de 50 000 lignes contenant un identifiant et un texte pour chaque avis.
 - sampleSubmission - Un fichier de soumission d'échantillon délimité par des virgules au format correct.
+
+L'ensemble de formation contient les 3 champs suivants :
+
+- id - ID unique de chaque avis
+- sentiment - Sentiment de l'examen ; 1 pour les avis positifs et 0 pour les avis négatifs
+- avis - Texte de l'avis
