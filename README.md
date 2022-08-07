@@ -30,3 +30,6 @@ Et pour sauvegarder les poids du modèle ayant la meilleure performance, j'ai ut
 # Évaluation des performances
 Nos simulations ont montré que RoBERTa atteint des meilleurs performances que BERT. En effet, la précision (accuracy) de 96.72% et dont l'aire
 sous la courbe ROC (AUC) est de 99.28% contre une précision de 94.78% et une AUC de  98.87% pour le modèle BERT.
+AUC BERT                   |  AUC RoBERTa
+:-------------------------:|:-------------------------:
+![AUC BERT](https://github.com/HoudCa/IMDB_sentiment_prediction/blob/main/Images/BERT_AUC.png)  | ![AUC RoBERTa](https://github.com/HoudCa/IMDB_sentiment_prediction/blob/main/Images/RoBERTa_AUC.png)
